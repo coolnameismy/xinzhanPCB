@@ -1,0 +1,11 @@
+﻿.product .col-lg-2{
+    margin-left:20px;margin-right:15px;
+}
+/*product*/  
+.nav-stacked li {
+    border-bottom: 1px solid #e5e5e5;
+}
+.shadrow {
+    box-shadow:0 0 6px rgba(0,0,0,.3);
+    padding:30px 30px 30px 30px;
+} 

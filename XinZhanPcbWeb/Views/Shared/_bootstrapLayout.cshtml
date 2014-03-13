@@ -14,11 +14,11 @@
           <!-- Custom styles for this template -->
 
         <script src="http://cdn.bootcss.com/holder/2.0/holder.min.js"></script>
-
+        <link href="@Url.Content("~/css/common.css")" rel="stylesheet" />
 </head>
   <!-- NAVBAR
 ================================================== -->
-  <body style="height:100%">
+  <body>
       
    <div class="navbar-wrapper">
       <div class="container">
@@ -32,26 +32,36 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="/">芯展PCB <img src="/Images/Logo.png" width="25" height="25"/></a>
+              <a class="navbar-brand" href="/">芯展电子 <img src="/Images/Logo.png" width="25" height="25"/></a>
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="/">主页</a></li>         
                
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">主营业务 <b class="caret"></b></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">主营业务介绍<b class="caret"></b></a>
                   <ul class="dropdown-menu">
                     <li><a href="/product">PCB布板</a></li>
                     <li><a href="/product">PCB打板</a></li>
                     <li><a href="/product">PCB焊接</a></li>
-                    <li><a href="/product">PCB设计</a></li>
-                    <li><a href="/product">PCB解决方案</a></li>
+                    <li><a href="/product">量产代工</a></li>
+                    <li><a href="/product">系统研发</a></li>
                     <li class="dropdown-header">更多业务，敬请期待</li>
                  
                   </ul>
                 </li>
-                <li><a href="/Order/How">如何下单</a></li>
-                <li><a href="/Order/Book">马上下单</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">在线下单 <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="/Order/Book">PCB布板</a></li>
+                    <li><a href="/Order/Book">PCB打板</a></li>
+                    <li><a href="/Order/Book">PCB焊接</a></li>
+                    <li><a href="/Order/Book">量产代工</a></li>
+                    <li><a href="/Order/Book">系统研发</a></li>
+                    <li class="dropdown-header">更多业务，敬请期待</li>      
+                  </ul>
+                </li>
+               @* <li><a href="/Order/How">如何下单</a></li>*@
                 <li><a href="/About/Introduce">公司介绍</a></li>
                 <li><a href="/About/Contact">联系方式</a></li>
                 
@@ -94,7 +104,7 @@
      <!-- FOOTER -->
       <div class="footer" > 
           <div class="container">
-            <p class="text-muted" style="text-align:center">xx公司版权所有 苏ICP备000000号-000  | 下单流程 | 订单查询 | PCB产品| 推荐产品 </p>
+            <p class="text-muted" style="text-align:center">上海芯展电子科技有限公司版权所有 苏ICP备000000号-000  | 下单流程 | 订单查询 | PCB产品| 推荐产品 </p>
           </div>
         </div> 
        <!-- /END FOOTER -->

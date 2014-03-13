@@ -1,4 +1,4 @@
-﻿ @{
+﻿@{
     ViewBag.Title = "Introduce";
 }
 
@@ -11,35 +11,37 @@
 
 
 }
-<style>
-    .nav-stacked li {
-        border-bottom: 1px solid #e5e5e5;
-    }
-   
-</style>
 
 <div class="container marketing">
-       <div class="col-lg-10">
+    <div class="row">
+        <div class="col-lg-10">
             <div class="panel panel-default">
-              <div class="panel-heading">公司简介</div>
-              <div class="panel-body">                         
+                <div class="panel-heading">联系方式</div>
+                <div class="panel-body">
                     <address class="text-left">
-                        <strong>Twitter, Inc.</strong><br>
-                        795 Folsom Ave, Suite 600<br>
-                        San Francisco, CA 94107<br>
-                        <abbr title="Phone">P:</abbr>
+
+                        <abbr title="Phone">地址:</abbr>
+                        上海市金山工业区亭卫公路6558号5幢1549室<br>
+                        <abbr title="Phone">电话:</abbr>
+                        (123) 456-7890<br>
+                        <abbr title="Phone">传真:</abbr>
                         (123) 456-7890
                     </address>
-                   <img src="~/Images/Map.jpg" width="100%" />
-               </div>
-            </div>     
+                    <address>
+                        <strong>业务部</strong><br>
+                        <a href="mailto:admin@coretech.com">admin@coretech.com</a>
+                    </address>
+                    <address>
+                        <strong>技术部</strong><br>
+                        <a href="mailto:technical@coretech.com">technical@coretech.com</a>
+                    </address>
+                    <img src="~/Images/Map.png" width="100%" />
+                </div>
+            </div>
         </div>
 
-        <div class="col-lg-2">          
-              <img src="~/Images/banner2.jpg"  width="180" height="250"/>
-               @*<img data-src="holder.js/180x450" alt="banner"/>*@
-        </div>
-
+        @Html.Partial("_RightAD")
+    </div>
 </div>
 
 
