@@ -1,0 +1,47 @@
+﻿ @{
+    ViewBag.Title = "Introduce";
+}
+
+@{
+    ViewBag.Title = "公司介绍";
+    Layout = "~/Views/Shared/_bootstrapLayout.cshtml";
+}
+
+@section breadcrumb {
+
+
+}
+<style>
+    .nav-stacked li {
+        border-bottom: 1px solid #e5e5e5;
+    }
+   
+</style>
+
+<div class="container marketing">
+       <div class="col-lg-10">
+            <div class="panel panel-default">
+              <div class="panel-heading">公司简介</div>
+              <div class="panel-body">                         
+                    <address class="text-left">
+                        <strong>Twitter, Inc.</strong><br>
+                        795 Folsom Ave, Suite 600<br>
+                        San Francisco, CA 94107<br>
+                        <abbr title="Phone">P:</abbr>
+                        (123) 456-7890
+                    </address>
+                   <img src="~/Images/Map.jpg" width="100%" />
+               </div>
+            </div>     
+        </div>
+
+        <div class="col-lg-2">          
+              <img src="~/Images/banner2.jpg"  width="180" height="250"/>
+               @*<img data-src="holder.js/180x450" alt="banner"/>*@
+        </div>
+
+</div>
+
+
+
+

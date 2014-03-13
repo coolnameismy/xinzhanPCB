@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XinZhanPcbWeb", "XinZhanPcbWeb\XinZhanPcbWeb.csproj", "{AFF356D1-3EE9-4C18-9939-9E1AAD212889}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XinZhanPcbWeb.Tests", "XinZhanPcbWeb.Tests\XinZhanPcbWeb.Tests.csproj", "{CA382320-86B3-4261-8FF5-D02C4731DB17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFF356D1-3EE9-4C18-9939-9E1AAD212889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFF356D1-3EE9-4C18-9939-9E1AAD212889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFF356D1-3EE9-4C18-9939-9E1AAD212889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFF356D1-3EE9-4C18-9939-9E1AAD212889}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA382320-86B3-4261-8FF5-D02C4731DB17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA382320-86B3-4261-8FF5-D02C4731DB17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA382320-86B3-4261-8FF5-D02C4731DB17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA382320-86B3-4261-8FF5-D02C4731DB17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,89 @@
+﻿@{
+    ViewBag.Title = " 主营业务";
+    Layout = "~/Views/Shared/_bootstrapLayout.cshtml";
+}
+
+@section breadcrumb {
+
+
+}
+<style>
+    .nav-stacked li {
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+ 
+    
+</style>
+
+<div class="container marketing">
+
+   
+    <div class="row" style="margin-right: 0px;">
+
+        <div class="col-lg-10">
+            <div class="panel panel-default">
+             
+              <div class="panel-body">
+                 <div class="panel-group" id="accordion">
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">step1:选择工艺参数
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    图文详细说明
+                    <img src="~/Images/order0.jpg" />
+
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">step2:计算价格
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse">
+                <div class="panel-body">
+                    图文详细说明
+                    <img src="~/Images/order1.jpg" />
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">step3:提交订单
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse">
+                <div class="panel-body">
+                    图文详细说明
+                        <a class="label label-info" href="book">马上下单</a>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+               </div>
+            </div>     
+        </div>
+
+        <div class="col-lg-2">          
+               <img src="~/Images/banner2.jpg"  width="180" height="250"/>
+               @*<img data-src="holder.js/180x450" alt="banner"/>*@
+        </div>
+
+    </div>
+
+    
+</div>
+
+
